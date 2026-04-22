@@ -21,7 +21,7 @@ function Dashboard() {
     if (!token) {
       navigate("/login");
     }
-  }, []);
+  }, [token, navigate]);
 
   const updateCourse = async () => {
     try {
