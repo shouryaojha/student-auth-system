@@ -20,7 +20,7 @@ function Register() {
     e.preventDefault();
 
     try {
-      await axios.post("http://localhost:5000/api/register", form);
+      await axios.post("https://student-auth-system-sdig.onrender.com/api/register", form);
       alert("Registered Successfully");
       navigate("/login");
     } catch (err) {

@@ -26,7 +26,7 @@ function Dashboard() {
   const updateCourse = async () => {
     try {
       await axios.put(
-        "http://localhost:5000/api/update-course",
+        "https://student-auth-system-sdig.onrender.com/api/update-course",
         { course },
         { headers: { Authorization: `Bearer ${token}` } }
       );
@@ -46,7 +46,7 @@ function Dashboard() {
   const updatePassword = async () => {
     try {
       await axios.put(
-        "http://localhost:5000/api/update-password",
+        "https://student-auth-system-sdig.onrender.com/api/update-password",
         passwords,
         { headers: { Authorization: `Bearer ${token}` } }
       );
