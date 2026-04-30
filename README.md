@@ -11,3 +11,5 @@
 - Express
 - React
 - Node.js
+
+deployed web link: https://student-auth-system-beta.vercel.app/login
